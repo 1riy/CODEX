@@ -1,10 +1,10 @@
-/* _content/front/Pages/Login.razor.rz.scp.css */
+/* _content/front/Pages/signin.razor.rz.scp.css */
 @font-face {
     font-family: 'ABSTER';
     src: url(Fonts/ABSTER.otf);
 }
 
-body[b-xqazf780xr] {
+body[b-0iasmlzxcm] {
     height: 100vh;
     /* margin: 0;
      */
@@ -13,7 +13,7 @@ body[b-xqazf780xr] {
     background-repeat: no-repeat    
 }
 
-.Logo h1[b-xqazf780xr] {
+.Logo h1[b-0iasmlzxcm] {
     padding: 10px 0px 0px 10px;
     font-size: 40px;
     color: #fff;
@@ -21,11 +21,11 @@ body[b-xqazf780xr] {
     font-family: 'ABSTER';    
 }
 
-*[b-xqazf780xr] {
+*[b-0iasmlzxcm] {
     margin: 0px;
 }
 
-body[b-xqazf780xr] {
+body[b-0iasmlzxcm] {
     height: 100vh;
     /* margin: 0;
      */
@@ -34,12 +34,12 @@ body[b-xqazf780xr] {
     background-repeat: no-repeat    
 }
 
-.card[b-xqazf780xr]{
+.card[b-0iasmlzxcm]{
     margin-bottom:20px;
     border:none;
 }
 
-.box[b-xqazf780xr] {
+.box[b-0iasmlzxcm] {
     width: 350px;
     padding: 40px;
     position: flex;
@@ -52,8 +52,8 @@ body[b-xqazf780xr] {
     transition: 0.25s
 }
 
-.box input[type="text"][b-xqazf780xr],
-.box input[type="password"][b-xqazf780xr] {
+.box input[type="text"][b-0iasmlzxcm],
+.box input[type="password"][b-0iasmlzxcm] {
     border: 0;
     background: none;
     display: flex;
@@ -68,20 +68,20 @@ body[b-xqazf780xr] {
     transition: 0.25s
 }
 
-.box h1[b-xqazf780xr] {
+.box h1[b-0iasmlzxcm] {
     color: white;
     text-transform: uppercase;
     font-weight: 500
 }
 
 
-.box input[type="text"]:focus[b-xqazf780xr],
-.box input[type="password"]:focus[b-xqazf780xr] {
+.box input[type="text"]:focus[b-0iasmlzxcm],
+.box input[type="password"]:focus[b-0iasmlzxcm] {
     width: 300px;
     border-color: #1b2f88
 }
 
-.box input[type="submit"][b-xqazf780xr] {
+.box input[type="submit"][b-0iasmlzxcm] {
     border: 0;
     background: none;
     display: block;
@@ -96,18 +96,18 @@ body[b-xqazf780xr] {
     cursor: pointer
 }
 
-.box input[type="submit"]:hover[b-xqazf780xr] {
+.box input[type="submit"]:hover[b-0iasmlzxcm] {
     background: #1b2f88
 }
 
-    .forgot[b-xqazf780xr] {
+    .forgot[b-0iasmlzxcm] {
             color: #726d6d;
             transition: 0.25s;
             color:white;
             cursor: pointer
     }
 
-*.card[b-xqazf780xr]{
+*.card[b-0iasmlzxcm]{
     display: flex;
     justify-content: center;
     align-items: center;
