@@ -3,15 +3,6 @@
     src: url(Fonts/ABSTER.otf);
 }
 
-body[b-0iasmlzxcm] {
-    height: 100vh;
-    /* margin: 0;
-     */
-    font-family: sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    background-repeat: no-repeat    
-}
-
 .Logo h1[b-0iasmlzxcm] {
     padding: 10px 0px 0px 10px;
     font-size: 40px;
@@ -20,14 +11,8 @@ body[b-0iasmlzxcm] {
     font-family: 'ABSTER';    
 }
 
-*[b-0iasmlzxcm] {
-    margin: 0px;
-}
-
 body[b-0iasmlzxcm] {
     height: 100vh;
-    /* margin: 0;
-     */
     font-family: sans-serif;
     background: linear-gradient(to right, #6a11cb, #2575fc);
     background-repeat: no-repeat    
@@ -106,9 +91,10 @@ body[b-0iasmlzxcm] {
             cursor: pointer
     }
 
-*.card[b-0iasmlzxcm]{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:700px;
-}
+    .container[b-0iasmlzxcm] {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
