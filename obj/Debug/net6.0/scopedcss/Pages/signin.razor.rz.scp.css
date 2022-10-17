@@ -20,7 +20,7 @@ body[b-0iasmlzxcm] {
 
 .card[b-0iasmlzxcm]{
     margin-bottom:20px;
-    border:none;
+    border: none;
 }
 
 .box[b-0iasmlzxcm] {
@@ -84,17 +84,17 @@ body[b-0iasmlzxcm] {
     background: #1b2f88
 }
 
-    .forgot[b-0iasmlzxcm] {
-            color: #726d6d;
-            transition: 0.25s;
-            color:white;
-            cursor: pointer
-    }
+.forgot[b-0iasmlzxcm] {
+    color: #726d6d;
+    transition: 0.25s;
+    color:white;
+    cursor: pointer
+}
 
-    .container[b-0iasmlzxcm] {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+.container[b-0iasmlzxcm] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
     

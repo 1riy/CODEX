@@ -84,17 +84,17 @@ body {
     background: #1b2f88
 }
 
-.forgot {
-    color: #726d6d;
-    transition: 0.25s;
-    color:white;
-    cursor: pointer
-}
+    .forgot {
+            color: #726d6d;
+            transition: 0.25s;
+            color:white;
+            cursor: pointer
+    }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-}
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     
