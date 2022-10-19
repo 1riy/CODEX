@@ -1,3 +1,43 @@
+/* _content/front/Pages/index.razor.rz.scp.css */
+#menu-h[b-ynoj769921]{  
+    background-color: #dbdbdb;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 1rem white;
+}
+
+
+#menu-h ul[b-ynoj769921]{
+    max-width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+        
+    text-align: center;
+    background-color: #004AAD
+}
+
+#menu-h ul li[b-ynoj769921]{
+    display: inline;
+}
+
+#menu-h ul li  a[b-ynoj769921]{
+    color:rgb(250, 234, 234);
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    transition: background .3s;
+    background-color: #004AAD;  
+}
+
+
+#menu-h ul li  a:hover[b-ynoj769921]{
+    background-color:rgb(221, 221, 221);
+}
 /* _content/front/Pages/signin.razor.rz.scp.css */
 @font-face {
     font-family: 'ABSTER';
