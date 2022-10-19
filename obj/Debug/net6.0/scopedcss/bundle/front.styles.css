@@ -1,4 +1,9 @@
 /* _content/front/Pages/index.razor.rz.scp.css */
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
 #menu-h[b-ynoj769921]{  
     background-color: #dbdbdb;
     overflow: hidden;
@@ -7,7 +12,6 @@
     height: 80px;
     box-shadow: 0 0 1rem white;
 }
-
 
 #menu-h ul[b-ynoj769921]{
     max-width: 100%;
@@ -38,6 +42,7 @@
 #menu-h ul li  a:hover[b-ynoj769921]{
     background-color:rgb(221, 221, 221);
 }
+
 /* _content/front/Pages/signin.razor.rz.scp.css */
 @font-face {
     font-family: 'ABSTER';
