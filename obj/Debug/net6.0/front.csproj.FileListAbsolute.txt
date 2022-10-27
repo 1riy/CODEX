@@ -53,7 +53,6 @@ C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\Shared\NavMenu.
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\bundle\front.styles.css
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\projectbundle\front.bundle.scp.css
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\front.genruntimeconfig.cache
-C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\ref\front.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\Pages\signup.razor.rz.scp.css
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -64,3 +63,4 @@ C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.Extensions.Cach
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\front.csproj.CopyComplete
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\Pages\index.razor.rz.scp.css
+C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\refint\front.dll
