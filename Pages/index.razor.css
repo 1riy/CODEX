@@ -39,7 +39,6 @@
 
 #menu-h ul li  a:hover{
     background-color:rgb(221, 221, 221);
-    clip-path: circle(30.3% at 51% 53%);
 }
 
 .Logo h1 {
@@ -49,15 +48,15 @@
 }
 
 .Search{
-    font-size: 35px
-    border
+    font-size: 35px;
+    text-decoration: none;
+    background-color:azure 
 }
 
 .LoginButton{
-    color: #FFFFFF;
     text-decoration: none;
-    font-size: 35px
+    font-size: 35px;
+    background-color:azure 
 }
-
 
 
