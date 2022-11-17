@@ -3,22 +3,13 @@
     src: url(Fonts/ABSTER.otf);
 }
 
-#menu-h{  
-    background-color: #dbdbdb;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 0 1rem white;
-}
-
 #menu-h ul{
     max-width: 100%;
     list-style: none;
     display: flex;
     justify-content: center;
     padding-right: 50px;
-        
+    
     text-align: center;
     background-color: #004AAD 
 }
@@ -36,14 +27,34 @@
     background-color: #004AAD;  
 }
 
-
-#menu-h ul li  a:hover{
-    background-color:rgb(221, 221, 221);
-}
-
 .Logo h1 {
     color: #fff;
     text-shadow: 5px 5px rgb(15, 23, 141);
     font-family: 'ABSTER';    
 }
 
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* Flex Container */
+.container {
+	max-width: 360px;
+    max-height: 1000px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+/* Flex Item */
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: blueviolet;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.password{
+    max-width: 500px;
+}

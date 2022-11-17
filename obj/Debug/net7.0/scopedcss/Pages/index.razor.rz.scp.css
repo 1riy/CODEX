@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
+#menu-h ul[b-ynoj769921]{
+    max-width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+        
+    text-align: center;
+    background-color: #004AAD 
+}
+
+#menu-h ul li[b-ynoj769921]{
+    display: inline;
+}
+
+#menu-h ul li  a[b-ynoj769921]{
+    color:rgb(8, 25, 255);
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    transition: background .3s;
+    background-color: #004AAD;  
+}
+
+
+#menu-h ul li  a:hover[b-ynoj769921]{
+    background-color:rgb(221, 221, 221);
+}
+
+.Logo h1[b-ynoj769921] {
+    color: #fff;
+    text-shadow: 5px 5px rgb(15, 23, 141);
+    font-family: 'ABSTER';    
+}
+
+.Search[b-ynoj769921]{
+    font-size: 35px;
+    text-decoration: none;
+    background-color:azure 
+}
+
+.LoginButton[b-ynoj769921]{
+    text-decoration: none;
+    font-size: 35px;
+    background-color:azure 
+}
+
+

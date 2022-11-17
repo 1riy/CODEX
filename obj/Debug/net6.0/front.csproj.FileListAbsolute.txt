@@ -59,9 +59,12 @@ C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.EntityFramework
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Aluno\Documents\GitHub\CODEX\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\front.csproj.CopyComplete
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\Pages\index.razor.rz.scp.css
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\refint\front.dll
 C:\Users\Aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\scopedcss\Pages\post.razor.rz.scp.css
+C:\Users\aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\staticwebassets\msbuild.front.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\staticwebassets\msbuild.build.front.props
+C:\Users\aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.front.props
+C:\Users\aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.front.props
+C:\Users\aluno\Documents\GitHub\CODEX\obj\Debug\net6.0\staticwebassets.pack.json
