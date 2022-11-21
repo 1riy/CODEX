@@ -3,58 +3,102 @@
     src: url(Fonts/ABSTER.otf);
 }
 
-#menu-h ul[b-7bl7srltt8]{
-    max-width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding-right: 50px;
-    
-    text-align: center;
-    background-color: #004AAD 
-}
-
-#menu-h ul li[b-7bl7srltt8]{
-    display: inline;
-}
-
-#menu-h ul li  a[b-7bl7srltt8]{
-    color:rgb(8, 25, 255);
-    display: inline-block;
-    text-decoration: none;
-    justify-content: center;
-    transition: background .3s;
-    background-color: #004AAD;  
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
 }
 
 .Logo h1[b-7bl7srltt8] {
+    padding: 10px 0px 0px 10px;
+    font-size: 40px;
     color: #fff;
     text-shadow: 5px 5px rgb(15, 23, 141);
     font-family: 'ABSTER';    
 }
 
-.wrap-reverse[b-7bl7srltt8] {
-	flex-wrap: wrap-reverse;
+body[b-7bl7srltt8] {
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-repeat: no-repeat    
 }
 
-/* Flex Container */
-.container[b-7bl7srltt8] {
-	max-width: 360px;
-    max-height: 1000px;
-	margin: 0 auto;
-	display: flex;
-	border: 1px solid #ccc;
-}
-/* Flex Item */
-.item[b-7bl7srltt8] {
-	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
-	flex: 1;
-	margin: 5px;
-	background: blueviolet;
-	text-align: center;
-	font-size: 1.5em;
+.card[b-7bl7srltt8]{
+    margin-bottom:20px;
+    border: none;
 }
 
-.password[b-7bl7srltt8]{
-    max-width: 500px;
+.box[b-7bl7srltt8] {
+    width: 350px;
+    padding: 40px;
+    position: flex;
+    top: 10%;
+    left: 35%;
+    border-radius: 24px;
+    background: #191919;
+    text-align: center;
+    color: #726d6d;
+    transition: 0.25s
 }
+
+.box input[type="text"][b-7bl7srltt8],
+.box input[type="password"][b-7bl7srltt8] {
+    border: 0;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1[b-7bl7srltt8] {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+
+.box input[type="text"]:focus[b-7bl7srltt8],
+.box input[type="password"]:focus[b-7bl7srltt8] {
+    width: 300px;
+    border-color: #1b2f88
+}
+
+.box input[type="submit"][b-7bl7srltt8] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover[b-7bl7srltt8] {
+    background: #1b2f88
+}
+
+    .forgot[b-7bl7srltt8] {
+            color: #726d6d;
+            transition: 0.25s;
+            color:white;
+            cursor: pointer
+    }
+
+    .container[b-7bl7srltt8] {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }  
