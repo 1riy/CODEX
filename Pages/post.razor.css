@@ -72,6 +72,7 @@
 #post2 {
     height: 20vh;
     width: 60vw;
+    text-decoration: red;
     background-color:rgb(195, 197, 219);
     color: white;
 }
@@ -84,12 +85,10 @@
 
 textarea{
     resize: none;
-    background-color: rgb(121, 122, 122);
 }
 
 #post3 {
-    height:10vh;
+    height:20vh;
     width: 10vw;
-    background-color: rgb(107, 255, 107);
     margin: 10;
 }
