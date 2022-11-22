@@ -81,6 +81,7 @@
     height: 20vh;
     width: 10vw;
     margin: 10;
+    background-color: rgb(133, 152, 238);
 }
 
 textarea{
