@@ -62,14 +62,24 @@
 
 #post1[b-7bl7srltt8] {
     height: 40vh;
+    resize: none;
+    background-color: rgb(196, 198, 224);
+    color: rgb(237, 148, 255);
 }
 
 #post2[b-7bl7srltt8] {
     height: 20vh;
-    width: 45vw;
+    width: 60vw;
+    background-color:rgb(195, 197, 219);
+    color: white;
 }
 
 #post3[b-7bl7srltt8] {
-    height: 20vh;
-    width: 45vw;
+    height: 10vh;
+    width: 10vw;
+    margin: 10;
+}
+
+textarea[b-7bl7srltt8]{
+    resize: none;
 }
