@@ -13,6 +13,11 @@
     background-color: #004AAD 
 }
 
+.dolado{
+    display: flex;
+    align-items: center;
+}
+
 #menu-h ul li{
     display: inline;
 }
@@ -40,13 +45,14 @@
 .Search{
     font-size: 35px;
     text-decoration: none;
-    background-color:azure 
 }
 
 .LoginButton{
     text-decoration: none;
     font-size: 35px;
-    background-color:azure 
 }
 
-
+.Post{
+    margin-right: 20%;
+    font-size: 35px;
+}

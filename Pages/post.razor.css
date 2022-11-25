@@ -77,11 +77,16 @@
     color: white;
 }
 
+#post3:hover{
+    transition: background .7s;
+    background-color:rgb(1, 118, 214);
+}
+
 #post3 {
     height: 20vh;
     width: 10vw;
     margin: 10;
-    background-color: rgb(133, 152, 238);
+    background-color:rgb(37, 157, 255);
 }
 
 textarea{

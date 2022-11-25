@@ -14,6 +14,11 @@
     background-color: #004AAD 
 }
 
+.dolado[b-ynoj769921]{
+    display: flex;
+    align-items: center;
+}
+
 #menu-h ul li[b-ynoj769921]{
     display: inline;
 }
@@ -41,16 +46,17 @@
 .Search[b-ynoj769921]{
     font-size: 35px;
     text-decoration: none;
-    background-color:azure 
 }
 
 .LoginButton[b-ynoj769921]{
     text-decoration: none;
     font-size: 35px;
-    background-color:azure 
 }
 
-
+.Post[b-ynoj769921]{
+    margin-right: 20%;
+    font-size: 35px;
+}
 /* _content/front/Pages/post.razor.rz.scp.css */
 @font-face {
     font-family: 'ABSTER';
@@ -131,11 +137,16 @@
     color: white;
 }
 
+#post3:hover[b-7bl7srltt8]{
+    transition: background .7s;
+    background-color:rgb(1, 118, 214);
+}
+
 #post3[b-7bl7srltt8] {
     height: 20vh;
     width: 10vw;
     margin: 10;
-    background-color: rgb(202, 240, 202);
+    background-color:rgb(37, 157, 255);
 }
 
 textarea[b-7bl7srltt8]{

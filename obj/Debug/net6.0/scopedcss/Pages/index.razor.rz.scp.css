@@ -13,6 +13,11 @@
     background-color: #004AAD 
 }
 
+.dolado[b-ynoj769921]{
+    display: flex;
+    align-items: center;
+}
+
 #menu-h ul li[b-ynoj769921]{
     display: inline;
 }
@@ -40,13 +45,14 @@
 .Search[b-ynoj769921]{
     font-size: 35px;
     text-decoration: none;
-    background-color:azure 
 }
 
 .LoginButton[b-ynoj769921]{
     text-decoration: none;
     font-size: 35px;
-    background-color:azure 
 }
 
-
+.Post[b-ynoj769921]{
+    margin-right: 20%;
+    font-size: 35px;
+}
