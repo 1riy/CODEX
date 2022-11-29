@@ -1,0 +1,370 @@
+/* _content/front/Pages/index.razor.rz.scp.css */
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
+#menu-h ul[b-ynoj769921]{
+    max-width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    text-align: center;
+    background-color: #004AAD 
+}
+
+.dolado[b-ynoj769921]{
+    display: flex;
+    align-items: center;
+}
+
+#menu-h ul li[b-ynoj769921]{
+    display: inline;
+}
+
+#menu-h ul li  a[b-ynoj769921]{
+    color:rgb(8, 25, 255);
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    transition: background .3s;
+    background-color: #004AAD;  
+}
+
+
+#menu-h ul li  a:hover[b-ynoj769921]{
+    background-color:rgb(221, 221, 221);
+}
+
+.Logo h1[b-ynoj769921] {
+    color: #fff;
+    text-shadow: 5px 5px rgb(15, 23, 141);
+    font-family: 'ABSTER';    
+}
+
+.Search[b-ynoj769921]{
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.LoginButton[b-ynoj769921]{
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.Post[b-ynoj769921]{
+    margin-right: 20%;
+    font-size: 35px;
+}
+/* _content/front/Pages/Manoelgome.razor.rz.scp.css */
+
+
+body[b-piwp7wt90m]{
+   background-image: url("https://www.areavip.com.br/wp-content/uploads/2022/10/manoel-gomes-696x445-jpg.webp");
+}
+/* _content/front/Pages/post.razor.rz.scp.css */
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
+#menu-h ul[b-7bl7srltt8]{
+    max-width: 100%;
+    list-style: none;
+    justify-content: center;
+    padding-right: 50px;    
+    text-align: center;
+    background-color: #004AAD 
+}
+
+#menu-h ul li[b-7bl7srltt8]{
+    display: inline;
+}
+
+#menu-h ul li  a[b-7bl7srltt8]{
+    color:rgb(8, 25, 255);
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    background-color: #004AAD;  
+}
+
+
+#menu-h ul li  a:hover[b-7bl7srltt8]{
+    background-color:rgb(221, 221, 221);
+}
+
+.Logo h1[b-7bl7srltt8] {
+    color: #fff;
+    text-shadow: 5px 5px rgb(15, 23, 141);
+    font-family: 'ABSTER';    
+}
+
+.Search[b-7bl7srltt8]{
+    font-size: 35px;
+    text-decoration: none;
+    background-color:azure 
+}
+
+.LoginButton[b-7bl7srltt8]{
+    text-decoration: none;
+    font-size: 35px;
+    background-color:azure 
+}
+
+.box[b-7bl7srltt8] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subbox[b-7bl7srltt8] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#post1[b-7bl7srltt8] {
+    height: 40vh;
+
+    resize: none;
+    background-color: rgb(196, 198, 224);
+    color: rgb(237, 148, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#post2[b-7bl7srltt8] {
+    height: 20vh;
+    width: 60vw;
+    text-decoration: red;
+    background-color:rgb(195, 197, 219);
+    color: white;
+}
+
+#post3:hover[b-7bl7srltt8]{
+    transition: background .7s;
+    background-color:rgb(1, 118, 214);
+}
+
+#post3[b-7bl7srltt8] {
+    height: 20vh;
+    width: 10vw;
+    margin: 10;
+    background-color:rgb(37, 157, 255);
+}
+
+textarea[b-7bl7srltt8]{
+    resize: none;
+}
+
+#post3[b-7bl7srltt8] {
+    height:20vh;
+    width: 10vw;
+    margin: 10;
+}
+/* _content/front/Pages/signin.razor.rz.scp.css */
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
+.Logo h1[b-0iasmlzxcm] {
+    padding: 10px 0px 0px 10px;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 5px 5px rgb(15, 23, 141);
+    font-family: 'ABSTER';    
+}
+
+body[b-0iasmlzxcm] {
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-repeat: no-repeat    
+}
+
+.card[b-0iasmlzxcm]{
+    margin-bottom:20px;
+    border: none;
+}
+
+.box[b-0iasmlzxcm] {
+    width: 350px;
+    padding: 40px;
+    position: flex;
+    top: 10%;
+    left: 35%;
+    border-radius: 24px;
+    background: #191919;
+    text-align: center;
+    color: #726d6d;
+    transition: 0.25s
+}
+
+.box input[type="text"][b-0iasmlzxcm],
+.box input[type="password"][b-0iasmlzxcm] {
+    border: 0;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1[b-0iasmlzxcm] {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+
+.box input[type="text"]:focus[b-0iasmlzxcm],
+.box input[type="password"]:focus[b-0iasmlzxcm] {
+    width: 300px;
+    border-color: #1b2f88
+}
+
+.box input[type="submit"][b-0iasmlzxcm] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover[b-0iasmlzxcm] {
+    background: #1b2f88
+}
+
+.forgot[b-0iasmlzxcm] {
+    color: #726d6d;
+    transition: 0.25s;
+    color:white;
+    cursor: pointer
+}
+
+.container[b-0iasmlzxcm] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+    
+/* _content/front/Pages/signup.razor.rz.scp.css */
+@font-face {
+    font-family: 'ABSTER';
+    src: url(Fonts/ABSTER.otf);
+}
+
+.Logo h1[b-anta2k6ohu] {
+    padding: 10px 0px 0px 10px;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 5px 5px rgb(15, 23, 141);
+    font-family: 'ABSTER';    
+}
+
+body[b-anta2k6ohu] {
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-repeat: no-repeat    
+}
+
+.card[b-anta2k6ohu]{
+    margin-bottom:20px;
+    border: none;
+}
+
+.box[b-anta2k6ohu] {
+    width: 350px;
+    padding: 40px;
+    position: flex;
+    top: 10%;
+    left: 35%;
+    border-radius: 24px;
+    background: #191919;
+    text-align: center;
+    color: #726d6d;
+    transition: 0.25s
+}
+
+.box input[type="text"][b-anta2k6ohu],
+.box input[type="password"][b-anta2k6ohu] {
+    border: 0;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1[b-anta2k6ohu] {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+
+.box input[type="text"]:focus[b-anta2k6ohu],
+.box input[type="password"]:focus[b-anta2k6ohu] {
+    width: 300px;
+    border-color: #1b2f88
+}
+
+.box input[type="submit"][b-anta2k6ohu] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover[b-anta2k6ohu] {
+    background: #1b2f88
+}
+
+    .forgot[b-anta2k6ohu] {
+            color: #726d6d;
+            transition: 0.25s;
+            color:white;
+            cursor: pointer
+    }
+
+    .container[b-anta2k6ohu] {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+/* _content/front/Shared/MainLayout.razor.rz.scp.css */
+/* _content/front/Shared/NavMenu.razor.rz.scp.css */
