@@ -8,7 +8,7 @@ namespace backend.Controllers;
 public class UserController: ControllerBase
 {
     [HttpGet("registro/{user}")]
-    public async Task<IActionResult> UserRegister(Usuario user)
+    public async Task<IActionResult> UserRegister([FromBody] Usuario user)
     {
         BdccodexContext context = new BdccodexContext();
         List<string> errors = new List<string>();
@@ -35,17 +35,19 @@ public class UserController: ControllerBase
             return BadRequest("Erro no servidor.");
         }
     }
-    [HttpGet("login/{user}")]
+
     public async Task<IActionResult> UserLogin(Usuario user)
     {
         BdccodexContext context = new BdccodexContext();
         var userInDatabase = context.Usuarios.FirstOrDefault(u => u.Nome == user.Nome);
         if(user.Nome == "Manoelgome")
-            Response.Redirect(@"/manoelgome");
+            Response.Redirect(@"/manoelgome");  
+            return Ok();
         if(userInDatabase == null)
             return BadRequest("usuario inexistnte.");
         if(user.Email != userInDatabase.Email)
             return BadRequest("Email errado.");
-
+        return Ok();
     }
+    
 }
