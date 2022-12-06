@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pQROk7g2lJjcxMtwDKEF9sYA615yMcrVHvOnwrsNl18=",
+  "Hash": "7Ubr7JD4g3oaHTEA+M5LOuQopFrzY4+OX0B2M/+/p5M=",
   "Source": "front",
   "BasePath": "_content/front",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Aluno\\Documents\\GitHub\\CODEX\\frontend\\wwwroot\\jumpscare.mp3",
+      "SourceId": "front",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aluno\\Documents\\GitHub\\CODEX\\frontend\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "jumpscare.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jumpscare.mp3"
     }
   ]
 }

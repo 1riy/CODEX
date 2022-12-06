@@ -4,11 +4,11 @@ using System.Linq;
 namespace backend.Controllers;
 
 [ApiController]
-[Route("User/")]
+[Route("user")]
 public class UserController: ControllerBase
 {
-    [HttpGet("registro/{user}")]
-    public async Task<IActionResult> UserRegister([FromBody] Usuario user)
+    [HttpPost("register")]
+    public async Task<IActionResult> UserRegister([FromBody]Usuario user)
     {
         BdccodexContext context = new BdccodexContext();
         List<string> errors = new List<string>();
@@ -40,14 +40,12 @@ public class UserController: ControllerBase
     {
         BdccodexContext context = new BdccodexContext();
         var userInDatabase = context.Usuarios.FirstOrDefault(u => u.Nome == user.Nome);
-        if(user.Nome == "Manoelgome")
-            Response.Redirect(@"/manoelgome");  
-            return Ok();
         if(userInDatabase == null)
             return BadRequest("usuario inexistnte.");
         if(user.Email != userInDatabase.Email)
             return BadRequest("Email errado.");
-        return Ok();
+        if(user.Nome == "Manoelgome")
+            Response.Redirect(@"/manoelgome");  
+            return Ok();
     }
-    
 }

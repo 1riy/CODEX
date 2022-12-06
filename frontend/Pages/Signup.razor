@@ -1,19 +1,36 @@
 @page "/register"
 
+@inject HttpClient http
+
 <body>
     <div class="Logo">
         <h1>C O D E X</h1>
     </div>
     <div class="container">
-        <div class="card">
-            <form onsubmit="event.preventDefault()" class="box">
-                <h1>Cadastro</h1>
-                <p class="text-muted"> Por favor informe seu e-mail e sua senha!</p>
-                <input type="text" name="" placeholder="Username"> <input type="text" name="" placeholder="E-mail">  <input type="password" name="" placeholder="Senha "> <input type="password" name="" placeholder="Confirmar senha"> 
-                <input type="submit" name="" value="Cadastrar" href="#">
-                <a class="forgot text-muted" href="/login">Já possui uma conta? Faça login.</a>
- 
-            </form>
-        </div>
+        <div class="box">
+            <h1>Cadastro</h1>
+            <p class="text-muted"> Por favor informe seu e-mail e sua senha!</p>
+            <input type="text" name="" placeholder="Username" @bind-value="username">
+            <input type="text" name="" placeholder="E-mail" @bind-value="email"> 
+            <input type="password" name="" placeholder="Senha" @bind-value="senha">
+            <input type="password" name="" placeholder="Confirmar senha"> 
+            <input type="submit" name="" value="Cadastrar" @onclick="Register">
+            <a class="forgot text-muted" href="/login">Já possui uma conta? Faça login.</a>
+         </div>
     </div>
 </body>
+
+@code
+{   
+    private string username = string.Empty;
+    private string email = string.Empty;
+    private string senha = string.Empty;
+    public async Task Register()
+    {
+        Usuario user = new Usuario();
+        user.Email = email;
+        user.Nome = username;
+        user.Senha = senha;
+        await http.PostAsJsonAsync("/user/register", user);
+    }
+}

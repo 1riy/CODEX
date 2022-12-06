@@ -15,7 +15,6 @@ body[b-0iasmlzxcm] {
     height: 100vh;
     font-family: sans-serif;
     background: linear-gradient(to right, #6a11cb, #2575fc);
-    background-repeat: no-repeat    
 }
 
 .card[b-0iasmlzxcm]{
@@ -25,10 +24,11 @@ body[b-0iasmlzxcm] {
 
 .box[b-0iasmlzxcm] {
     width: 350px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     position: flex;
     top: 10%;
-    left: 35%;
+    left: 20%;
     border-radius: 24px;
     background: #191919;
     text-align: center;

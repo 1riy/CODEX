@@ -21,13 +21,13 @@ public partial class BdccodexContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=SNCCHLAB02F236\\TEW_SQLEXPRESS;Initial Catalog=BDCCODEX;Integrated Security=SSPI;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=SNCCHLAB02F35\\TEW_SQLEXPRESS;Initial Catalog=BDCCODEX;Integrated Security=SSPI;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Post>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Post__3214EC27726DB5EA");
+            entity.HasKey(e => e.Id).HasName("PK__Post__3214EC27F35AF243");
 
             entity.ToTable("Post");
 
@@ -36,11 +36,17 @@ public partial class BdccodexContext : DbContext
             entity.Property(e => e.Publicante)
                 .HasMaxLength(200)
                 .IsUnicode(false);
+            entity.Property(e => e.Review)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Title)
+                .HasMaxLength(200)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC27896E162A");
+            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC276BB140B3");
 
             entity.ToTable("Usuario");
 

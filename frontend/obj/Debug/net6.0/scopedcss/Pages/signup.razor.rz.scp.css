@@ -14,8 +14,7 @@
 body[b-anta2k6ohu] {
     height: 100vh;
     font-family: sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    background-repeat: no-repeat    
+    background: linear-gradient(to right, #6a11cb, #2575fc);   
 }
 
 .card[b-anta2k6ohu]{
@@ -25,7 +24,8 @@ body[b-anta2k6ohu] {
 
 .box[b-anta2k6ohu] {
     width: 350px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     position: flex;
     top: 10%;
     left: 35%;

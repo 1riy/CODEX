@@ -1,13 +1,16 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using front.Data;
+const string backendUlr = "https://localhost:7044";
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<HttpClient>(p => new HttpClient()
+{
+    BaseAddress = new Uri(backendUlr)
+});
 
 var app = builder.Build();
 

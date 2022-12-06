@@ -1,4 +1,5 @@
 @page "/post"
+@inject HttpClient http
 
 <body>
         <nav id="menu-h">
@@ -11,7 +12,8 @@
 
         <div class="container">
            <div class="box">
-            <textarea type="title" style="height: 7vh; font-size: 35px;" name="message" placeholder="Title" > </textarea>
+                <textarea type="title" style="height: 7vh; font-size: 35px;" name="message" placeholder="Title"
+                @bind-value="title"> </textarea>
             <textarea type="post1" style="height: 40vh; font-size: 25px;" name="message" placeholder="Code" > </textarea>
                 <div class="subbox">
                 <textarea type="post2" style="width: 60vw; height: 20vh; font-size: 25px;" name="message" placeholder="Review" > </textarea>
@@ -21,3 +23,20 @@
         </div>
     </nav>
 </body>
+
+@code
+{
+    private string title = "";
+    private string content = "";
+    private string review = "";
+
+    public async Task Register()
+    {
+        Conteudo post = new Conteudo();
+        post.Publicante = "sdfsf";
+        post.Review = review;
+        post.Title = title;
+        post.Review = review;
+        await http.PostAsJsonAsync("/content/register/", post);
+    }
+}
