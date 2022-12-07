@@ -27,26 +27,26 @@ public partial class BdccodexContext : DbContext
     {
         modelBuilder.Entity<Post>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Post__3214EC27F35AF243");
+            entity.HasKey(e => e.Id).HasName("PK__Post__3214EC2767FF780A");
 
             entity.ToTable("Post");
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Conteudo).IsUnicode(false);
+            entity.Property(e => e.Descricao)
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.Publicante)
                 .HasMaxLength(200)
                 .IsUnicode(false);
-            entity.Property(e => e.Review)
-                .HasMaxLength(200)
-                .IsUnicode(false);
-            entity.Property(e => e.Title)
+            entity.Property(e => e.Titulo)
                 .HasMaxLength(200)
                 .IsUnicode(false);
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC276BB140B3");
+            entity.HasKey(e => e.Id).HasName("PK__Usuario__3214EC27E509E344");
 
             entity.ToTable("Usuario");
 

@@ -12,12 +12,11 @@
 
         <div class="container">
            <div class="box">
-                <textarea type="title" style="height: 7vh; font-size: 35px;" name="message" placeholder="Title"
-                @bind-value="title"> </textarea>
-            <textarea type="post1" style="height: 40vh; font-size: 25px;" name="message" placeholder="Code" > </textarea>
+                <input type="title" style="height: 7vh; font-size: 35px;" name="message" placeholder="Title" @bind-value="title">
+                <input type="post1" style="height: 40vh; font-size: 25px;" name="message" placeholder="Code" @bind-value="code">
                 <div class="subbox">
-                <textarea type="post2" style="width: 60vw; height: 20vh; font-size: 25px;" name="message" placeholder="Review" > </textarea>
-                <button id="post3" type="button">SEND</button>
+                <input type="post2" style="width: 60vw; height: 20vh; font-size: 25px;" name="message" placeholder="Review" @bind-value="review"> 
+                <input type="submit" name="" value="SEND" @OnClick="Register">
                 </div>
             </div>
         </div>
@@ -26,17 +25,15 @@
 
 @code
 {
-    private string title = "";
-    private string content = "";
-    private string review = "";
-
+    private string title = string.Empty;
+    private string code = string.Empty;
+    private string review = string.Empty;
     public async Task Register()
     {
         Conteudo post = new Conteudo();
-        post.Publicante = "sdfsf";
-        post.Review = review;
-        post.Title = title;
-        post.Review = review;
+        post.Titulo = title;
+        post.Conteudo = code;
+        post.Descricao = review;
         await http.PostAsJsonAsync("/content/register/", post);
     }
 }

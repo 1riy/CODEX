@@ -21,11 +21,10 @@ go
 
 create table Post(
 	ID int identity primary key,
+	Titulo varchar(200) not null,
 	Publicante varchar(200) not null,
-	Conteudo 
-	varchar (MAX) not null,
+	Conteudo varchar (MAX) not null,
+	Descricao varchar (500) not null,
 );
 go
 /*Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy  Bypass */
-
-
